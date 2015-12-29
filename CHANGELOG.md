@@ -1,6 +1,8 @@
 ## master
+ * Ruby 2.0+ (or compatible) is now required.
 
 ### enhancements
+ * Use Module#prepend instead of alias_method_chain to address Rails 5 deprecation warnings. (by [@owenr](https://github.com/owenr))
 
 ### bug fix
 
